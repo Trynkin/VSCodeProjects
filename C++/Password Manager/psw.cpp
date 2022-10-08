@@ -1,4 +1,5 @@
 #include <iostream>
+#include <unistd.h>
 
 using namespace std;
 
@@ -21,6 +22,6 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    cout << "Какой пароль нужен?" << endl;
+    std::cout << "Какой пароль нужен?" << endl;
     }
 }
