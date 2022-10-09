@@ -10,12 +10,13 @@ int main(int argc, char *argv[])
     }
     else
     {
+        string search;
         char opt;
-    while((opt = getopt(argc, argv,"a:g") != -1)){
+    while((opt = getopt(argc, argv,"a:s") != -1)){
         switch (opt)
         {
         case 'a':
-            /* code */
+            cin >> search;
             break;
         
         default:
