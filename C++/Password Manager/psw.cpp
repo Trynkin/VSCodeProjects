@@ -16,14 +16,14 @@ int main(int argc, char *argv[])
     else
     {
         std::string search;
-        char opt;
+        char opt, c;
     while(1) {
         static struct option long_option[] = {
             {"add", required_argument, NULL, 'a'},
             {"get", required_argument, NULL, 'g'},
             {0,     0,                 0,     0 }
         };
-        
+    
     }
     }
     std::cout << "Какой пароль нужен?" << endl;
